@@ -1,0 +1,58 @@
+html::-webkit-scrollbar{display:none !important}
+body::-webkit-scrollbar{display:none !important}
+
+html {
+    height: 100%;
+    background: url(bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 50pt;
+    color: white;
+}
+
+.centered {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.btn {
+    display: none;
+    background: rgba(0, 0, 0, 0.4);
+    height: 90px;
+    width: 300px;
+    border-radius: 20px;
+    margin: auto;
+    cursor: pointer;
+    cursor: hand;
+    line-height: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.btn:active {
+    background: rgba(0, 0, 0, 0.8);
+}
